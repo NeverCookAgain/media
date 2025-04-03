@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,7 +9,7 @@ public class Inventory : MonoBehaviour
     public int slotCount = 2;
 
     public GameObject inventoryButtonPrefab;
-    public Item[] items;
+    public List<Item> items;
 
     // Start is called before the first frame update
     void Start()
@@ -46,12 +47,13 @@ public class Inventory : MonoBehaviour
 
             Transform childTransform = gameObject.transform.GetChild(i);
             InventoryButton button = childTransform.GetComponent<InventoryButton>();
-            if (items.Length - 1 < i) 
+            if (items.Count - 1 < i) 
             {
                 
                 button.item = null;
 
-            } else if (button.item != items[i])
+            } 
+            else if (button.item != items[i])
             {
 
                 button.item = items[i];
