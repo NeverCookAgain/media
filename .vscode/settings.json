@@ -56,5 +56,10 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "game.sln"
+    "dotnet.defaultSolution": "game.sln",
+    // The number of spaces a tab is equal to.
+    "editor.tabSize": 2,
+
+    // Insert spaces when pressing Tab.
+    "editor.insertSpaces": true
 }
