@@ -3110,6 +3110,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Burnt Bread
       objectReference: {fileID: 0}
+    - target: {fileID: 8722497291251691387, guid: 8cefdd952dd510f41a778e4ad17ddcf3, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
