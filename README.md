@@ -81,11 +81,13 @@ Once you're ready to share, [create a pull request](https://github.com/NeverCook
 
 ## Contributions
 ### Feature additions, updates, and removals
+> [!IMPORTANT]
+> Every feature should be based on the gameplay design repository. If the feature isn't defined there first, do not add it to this repository yet.
+
 TBD
 
 ### Bug fixes
 TBD
 
 ### Repository management
-> [!IMPORTANT]
-> Every feature should be based on the gameplay design repository. If the feature isn't defined there first, do not add it to this repository yet.
+TBD
