@@ -64,7 +64,11 @@
     <Analyzer Include="C:\Program Files\Unity 2022.3.33f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scenes\InitialScene\UI\Inventory\Inventory.cs" />
+    <Compile Include="Assets\Scenes\InitialScene\UI\InventoryButton\InventoryButton.cs" />
     <Compile Include="Assets\Scenes\InitialScene\UI\Timer\Timer.cs" />
+    <Compile Include="Assets\Scenes\InitialScene\Items\Item.cs" />
+    <Compile Include="Assets\Scenes\InitialScene\Items\BurntBread\BurntBread.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Libraries\TextMesh Pro\Shaders\TMPro.cginc" />
