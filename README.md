@@ -8,6 +8,19 @@
 Everyone plays a role in the game's direction.
 
 ## Development
+### Clone the repository to your local machine
+TBD
+
+### Add the project to Unity Hub
+TBD
+
+### Create or checkout to a development branch
+TBD
+
+### Commit and push your changes regularly
+TBD
+
+### Make a pull request to the `main` branch
 TBD
 
 ## Contributions
