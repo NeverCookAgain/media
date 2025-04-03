@@ -41,6 +41,7 @@ If you have a valid email connected to your GitHub account, your commits will sh
 
 > [!NOTE]
 > If the email that you set gets removed from your GitHub account, your commits will show up with the `user.name` that you set.
+> 
 > ![{E12A33AD-F5A3-4A6D-9C27-2E9F44072BBF}](https://github.com/user-attachments/assets/5fbc13ba-4d1a-4e92-ac51-7df48f693d8e)
 
 ### Create or checkout to a development branch
