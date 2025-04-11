@@ -20,15 +20,31 @@ public class PlayerMovement : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    void Update()
+private int facingDirection = 1; 
+// 1 for right, 0 for left
+
+void Update()
+{
+    moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+    moveInput = moveInput.normalized;
+
+    
+    if (moveInput.x > 0)
     {
-        moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        moveInput = moveInput.normalized;
-        
-        bool isMoving = moveInput.magnitude > 0.01f;
-        animator.SetBool("isMoving", isMoving);
-        animator.SetBool("isCarrying", isCarrying);
+        facingDirection = 1;
     }
+    else if (moveInput.x < 0)
+    {
+        facingDirection = 0;
+    }
+
+    animator.SetInteger("facing", facingDirection);
+
+    bool isMoving = moveInput.magnitude > 0.01f;
+    animator.SetBool("isMoving", isMoving);
+    animator.SetBool("isCarrying", isCarrying);
+}
+
 
     void FixedUpdate()
     {
