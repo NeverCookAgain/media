@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -95,7 +95,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: R_Rigatoni_Walking_0
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 23
+        width: 201
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1b40661f43f4040b7d67b7b4dfea4b
+      internalID: 1967772182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_Rigatoni_Walking_1
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 23
+        width: 201
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 558e9c1a67e3ac341b9a7dbea40da33f
+      internalID: -2115349368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_Rigatoni_Walking_2
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 23
+        width: 200
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c89dc5f2667c534899b2cf7fda406ae
+      internalID: -1353513697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_Rigatoni_Walking_3
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 23
+        width: 202
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ceed69c8ca72844adcf1533e88bd45
+      internalID: 1874522944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_Rigatoni_Walking_4
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 23
+        width: 200
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b54853b79995864ca8cb8fb583f78d3
+      internalID: 1485751263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_Rigatoni_Walking_5
+      rect:
+        serializedVersion: 2
+        x: 1933
+        y: 23
+        width: 200
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03bf434b761b78a4d8ce6d2314095d5b
+      internalID: 1040217519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_Rigatoni_Walking_6
+      rect:
+        serializedVersion: 2
+        x: 2293
+        y: 23
+        width: 205
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721a5ec36fcac5e43aff05786741fe2d
+      internalID: 1168373748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_Rigatoni_Walking_7
+      rect:
+        serializedVersion: 2
+        x: 2665
+        y: 23
+        width: 205
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53d622b71fae484da767c62cfd92c26
+      internalID: -696745859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +274,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      R_Rigatoni_Walking_0: 1967772182
+      R_Rigatoni_Walking_1: -2115349368
+      R_Rigatoni_Walking_2: -1353513697
+      R_Rigatoni_Walking_3: 1874522944
+      R_Rigatoni_Walking_4: 1485751263
+      R_Rigatoni_Walking_5: 1040217519
+      R_Rigatoni_Walking_6: 1168373748
+      R_Rigatoni_Walking_7: -696745859
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
