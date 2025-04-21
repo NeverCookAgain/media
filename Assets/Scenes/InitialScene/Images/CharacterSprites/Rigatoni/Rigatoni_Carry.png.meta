@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -147,7 +147,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Rigatoni_Carry_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 23
+        width: 279
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7f4b994db4b6c48a46ac23cdb804cb
+      internalID: 1880288806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rigatoni_Carry_1
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 23
+        width: 279
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28272b7653d7b4d4c86bff1cb44eeb5d
+      internalID: -761229848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rigatoni_Carry_2
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 23
+        width: 279
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269e0b717d6042a4c85bd5dc590c9e7e
+      internalID: 692983188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rigatoni_Carry_3
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 23
+        width: 279
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48cba0938553dae489a4752b8948f0eb
+      internalID: -1787026548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rigatoni_Carry_4
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 23
+        width: 279
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73cdea50745f0ca4281f6e8e840906f7
+      internalID: -442525234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rigatoni_Carry_5
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 23
+        width: 279
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8b9af38b66a6c43a8184b9da54cc7e
+      internalID: 1047026913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rigatoni_Carry_6
+      rect:
+        serializedVersion: 2
+        x: 2265
+        y: 23
+        width: 279
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e963d5aa8b5f04443b031cefa0135173
+      internalID: -203233893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rigatoni_Carry_7
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 23
+        width: 280
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67f306c0dc69d44faae6fb5c2757c94
+      internalID: 1474464717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -158,7 +326,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Rigatoni_Carry_0: 1880288806
+      Rigatoni_Carry_1: -761229848
+      Rigatoni_Carry_2: 692983188
+      Rigatoni_Carry_3: -1787026548
+      Rigatoni_Carry_4: -442525234
+      Rigatoni_Carry_5: 1047026913
+      Rigatoni_Carry_6: -203233893
+      Rigatoni_Carry_7: 1474464717
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
