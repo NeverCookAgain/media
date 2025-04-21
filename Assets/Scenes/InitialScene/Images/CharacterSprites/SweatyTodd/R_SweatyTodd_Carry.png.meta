@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -95,175 +95,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: R_SweatyTodd_Carry_0
-      rect:
-        serializedVersion: 2
-        x: 57
-        y: 23
-        width: 279
-        height: 386
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7621b60e3b93cbe43ae0b395f327d0c2
-      internalID: -103418128
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: R_SweatyTodd_Carry_1
-      rect:
-        serializedVersion: 2
-        x: 417
-        y: 23
-        width: 279
-        height: 384
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d3512958dc7581842b06e45f2d2cc622
-      internalID: -1850069588
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: R_SweatyTodd_Carry_2
-      rect:
-        serializedVersion: 2
-        x: 787
-        y: 23
-        width: 279
-        height: 380
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4a7c05c07ecbf4646a32e72c08851069
-      internalID: -614513539
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: R_SweatyTodd_Carry_3
-      rect:
-        serializedVersion: 2
-        x: 1146
-        y: 23
-        width: 280
-        height: 384
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cf3e733c830248448a1d01a90672b678
-      internalID: 1790247228
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: R_SweatyTodd_Carry_4
-      rect:
-        serializedVersion: 2
-        x: 1537
-        y: 23
-        width: 279
-        height: 386
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7eafcea84bb38474e8af07cb3a7fc278
-      internalID: -1352119606
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: R_SweatyTodd_Carry_5
-      rect:
-        serializedVersion: 2
-        x: 1893
-        y: 23
-        width: 279
-        height: 384
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f30c549eb24bd3846a1b8834995a42d2
-      internalID: 1459892767
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: R_SweatyTodd_Carry_6
-      rect:
-        serializedVersion: 2
-        x: 2254
-        y: 23
-        width: 279
-        height: 380
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9d40ed81c44326f4696d683626bf18af
-      internalID: 1548552229
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: R_SweatyTodd_Carry_7
-      rect:
-        serializedVersion: 2
-        x: 2626
-        y: 23
-        width: 279
-        height: 384
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2e24c803f64998b4cac8e5fbcff68460
-      internalID: -1934458523
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -274,15 +106,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      R_SweatyTodd_Carry_0: -103418128
-      R_SweatyTodd_Carry_1: -1850069588
-      R_SweatyTodd_Carry_2: -614513539
-      R_SweatyTodd_Carry_3: 1790247228
-      R_SweatyTodd_Carry_4: -1352119606
-      R_SweatyTodd_Carry_5: 1459892767
-      R_SweatyTodd_Carry_6: 1548552229
-      R_SweatyTodd_Carry_7: -1934458523
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

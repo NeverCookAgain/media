@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -147,175 +147,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Rigatoni_Walking_0
-      rect:
-        serializedVersion: 2
-        x: 92
-        y: 23
-        width: 206
-        height: 484
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 56055f87c25f6744abd2c128a4cfa385
-      internalID: -690840771
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Rigatoni_Walking_1
-      rect:
-        serializedVersion: 2
-        x: 464
-        y: 23
-        width: 206
-        height: 478
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2014ef4972947ec4bb02d531ac43b82f
-      internalID: 2016505712
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Rigatoni_Walking_2
-      rect:
-        serializedVersion: 2
-        x: 830
-        y: 23
-        width: 201
-        height: 481
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e2fc3589e770c694a9099ba31b025cfe
-      internalID: 645205467
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Rigatoni_Walking_3
-      rect:
-        serializedVersion: 2
-        x: 1186
-        y: 23
-        width: 200
-        height: 484
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9d8ea4eac37c1d64daf959778655f38b
-      internalID: -204517184
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Rigatoni_Walking_4
-      rect:
-        serializedVersion: 2
-        x: 1576
-        y: 23
-        width: 200
-        height: 484
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 169710b1c02cf004888c5c3fc433614a
-      internalID: -1223521939
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Rigatoni_Walking_5
-      rect:
-        serializedVersion: 2
-        x: 1936
-        y: 23
-        width: 200
-        height: 478
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 739673210ec511a429997443e11d3d82
-      internalID: 1973549575
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Rigatoni_Walking_6
-      rect:
-        serializedVersion: 2
-        x: 2306
-        y: 23
-        width: 201
-        height: 481
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5a2b26505fcdfde4d87baeb7a1e8ecd9
-      internalID: -898899601
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Rigatoni_Walking_7
-      rect:
-        serializedVersion: 2
-        x: 2665
-        y: 23
-        width: 202
-        height: 484
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 610a888efcab8e6429d9f65dd83e4cd7
-      internalID: 989284686
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -326,15 +158,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Rigatoni_Walking_0: -690840771
-      Rigatoni_Walking_1: 2016505712
-      Rigatoni_Walking_2: 645205467
-      Rigatoni_Walking_3: -204517184
-      Rigatoni_Walking_4: -1223521939
-      Rigatoni_Walking_5: 1973549575
-      Rigatoni_Walking_6: -898899601
-      Rigatoni_Walking_7: 989284686
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -147,175 +147,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: SweatyTodd_Walking_0
-      rect:
-        serializedVersion: 2
-        x: 92
-        y: 23
-        width: 206
-        height: 384
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e0335ee994c277740b0221229c89f73a
-      internalID: 973063598
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SweatyTodd_Walking_1
-      rect:
-        serializedVersion: 2
-        x: 464
-        y: 23
-        width: 206
-        height: 380
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dc97f3e47427c0945a45de52c79594e6
-      internalID: -296092117
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SweatyTodd_Walking_2
-      rect:
-        serializedVersion: 2
-        x: 830
-        y: 23
-        width: 201
-        height: 384
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e4ff5b5e8af0cce4aa0b15abd0332fd8
-      internalID: 1455197041
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SweatyTodd_Walking_3
-      rect:
-        serializedVersion: 2
-        x: 1186
-        y: 23
-        width: 200
-        height: 386
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aea4e972d70317f4f8b564d1c9096652
-      internalID: 1649869040
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SweatyTodd_Walking_4
-      rect:
-        serializedVersion: 2
-        x: 1576
-        y: 23
-        width: 200
-        height: 384
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2eda10df3fb24e34795f33a17c10b325
-      internalID: -1835131203
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SweatyTodd_Walking_5
-      rect:
-        serializedVersion: 2
-        x: 1936
-        y: 23
-        width: 200
-        height: 380
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aa60e512f525d92438ba160eb9dc5a0c
-      internalID: 664713097
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SweatyTodd_Walking_6
-      rect:
-        serializedVersion: 2
-        x: 2306
-        y: 23
-        width: 201
-        height: 384
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 832370325106909469b9ef349ba7f138
-      internalID: 799197258
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SweatyTodd_Walking_7
-      rect:
-        serializedVersion: 2
-        x: 2665
-        y: 23
-        width: 202
-        height: 386
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1d6d507896166a14983240f3ecafccf1
-      internalID: 307197127
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -326,15 +158,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      SweatyTodd_Walking_0: 973063598
-      SweatyTodd_Walking_1: -296092117
-      SweatyTodd_Walking_2: 1455197041
-      SweatyTodd_Walking_3: 1649869040
-      SweatyTodd_Walking_4: -1835131203
-      SweatyTodd_Walking_5: 664713097
-      SweatyTodd_Walking_6: 799197258
-      SweatyTodd_Walking_7: 307197127
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

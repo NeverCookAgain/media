@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -95,175 +95,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: R_CousinRicky_Carry_0
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 23
-        width: 279
-        height: 374
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cfe045926a4cc3d4d98f7a9f00d5b591
-      internalID: 717955699
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: R_CousinRicky_Carry_1
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 23
-        width: 279
-        height: 372
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 33942845a61920c449e8a76417e7ae8c
-      internalID: 909892888
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: R_CousinRicky_Carry_2
-      rect:
-        serializedVersion: 2
-        x: 786
-        y: 23
-        width: 280
-        height: 368
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9f62ba4cd75363e43b3a2eefb95c2c0d
-      internalID: 554867028
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: R_CousinRicky_Carry_3
-      rect:
-        serializedVersion: 2
-        x: 1146
-        y: 23
-        width: 279
-        height: 373
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8816bfbfca902cb40b72acebefc82c75
-      internalID: -643194102
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: R_CousinRicky_Carry_4
-      rect:
-        serializedVersion: 2
-        x: 1536
-        y: 23
-        width: 280
-        height: 374
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4c4b5ae2cdeb95446b6e8fcf175e18ea
-      internalID: 1698608855
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: R_CousinRicky_Carry_5
-      rect:
-        serializedVersion: 2
-        x: 1892
-        y: 23
-        width: 280
-        height: 372
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3f27f057029789348b17b8ebc94114a5
-      internalID: 632671243
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: R_CousinRicky_Carry_6
-      rect:
-        serializedVersion: 2
-        x: 2253
-        y: 23
-        width: 279
-        height: 368
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 29d21c296ecb1414b98c326a4c72c208
-      internalID: 1389595295
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: R_CousinRicky_Carry_7
-      rect:
-        serializedVersion: 2
-        x: 2625
-        y: 23
-        width: 279
-        height: 373
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f65eb3f860555cf41bd9b61117a01e46
-      internalID: -1540311839
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -274,15 +106,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      R_CousinRicky_Carry_0: 717955699
-      R_CousinRicky_Carry_1: 909892888
-      R_CousinRicky_Carry_2: 554867028
-      R_CousinRicky_Carry_3: -643194102
-      R_CousinRicky_Carry_4: 1698608855
-      R_CousinRicky_Carry_5: 632671243
-      R_CousinRicky_Carry_6: 1389595295
-      R_CousinRicky_Carry_7: -1540311839
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
