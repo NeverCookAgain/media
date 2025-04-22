@@ -6,28 +6,38 @@ using UnityEngine.UI;
 public class InventoryButton : MonoBehaviour
 {
 
-    public Item item;
+  private Item item;
 
-    // Start is called before the first frame update
-    void Start()
+  // Activates when the player presses the button on the screen.
+  public void Activate()
+  {
+
+    if (item)
     {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-        Image imageComponent = gameObject.transform.GetChild(0).gameObject.GetComponent<Image>();
-        imageComponent.sprite = item?.Sprite;
-        imageComponent.color = new Color32(255, 255, 255, (byte) (item != null ? 255 : 0));
+      item?.Activate();
 
     }
 
-    // Activates when the player presses the button on the screen.
-    public void Activate() {
 
-        item?.Activate();
+  }
 
-    }
+  public Item GetItem()
+  {
+
+    return item;
+
+  }
+
+  public void SetItem(Item item)
+  {
+
+    this.item = item;
+
+    Image imageComponent = gameObject.transform.GetChild(0).gameObject.GetComponent<Image>();
+    imageComponent.sprite = item != null ? item.Sprite : null;
+    imageComponent.color = item != null ? item.colors[item.GetBurnLevel()] : new Color32(255, 255, 255, 0);
+
+  }
+
 }

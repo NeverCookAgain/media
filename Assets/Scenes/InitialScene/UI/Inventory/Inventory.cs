@@ -50,13 +50,13 @@ public class Inventory : MonoBehaviour
             if (items.Count - 1 < i) 
             {
                 
-                button.item = null;
+                button.SetItem(null);
 
             } 
-            else if (button.item != items[i])
+            else if (button.GetItem() != items[i])
             {
 
-                button.item = items[i];
+                button.SetItem(items[i]);
 
             }
 
