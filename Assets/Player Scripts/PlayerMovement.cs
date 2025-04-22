@@ -54,7 +54,6 @@ void Update()
     void ApplyMovement()
 {
     Vector2 targetVelocity = moveInput * moveSpeed;
-    Debug.Log(targetVelocity);
     rb.velocity = targetVelocity;
 
     if (moveInput.magnitude < 0.01f)
