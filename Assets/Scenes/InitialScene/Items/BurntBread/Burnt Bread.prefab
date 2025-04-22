@@ -98,3 +98,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Sprite: {fileID: 21300000, guid: c12087920fe8a8a41a7e24418194b9f5, type: 3}
+  burnLevel: 0
