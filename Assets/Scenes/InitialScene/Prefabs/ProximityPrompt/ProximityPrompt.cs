@@ -5,7 +5,6 @@
  * © 2025 Never Cook Again Group
  */
 
-using System;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -13,7 +12,7 @@ public class ProximityPrompt : MonoBehaviour
 {
 
   public KeyCode activationKeybind = KeyCode.E;
-  public Boolean isEnabled = true;
+  public bool isEnabled = true;
   private Canvas canvas;
 
   public UnityEvent activationEvent = new();
@@ -21,14 +20,15 @@ public class ProximityPrompt : MonoBehaviour
   void Start()
   {
 
-    this.canvas = transform.GetChild(0).GetComponent<Canvas>();
+    canvas = transform.GetChild(0).GetComponent<Canvas>();
+    canvas.enabled = false;
 
   }
 
   void Update()
   {
 
-    if (this.canvas.enabled && this.isEnabled && Input.GetKeyDown(KeyCode.E)) {
+    if (canvas.enabled && isEnabled && Input.GetKeyDown(KeyCode.E)) {
 
       activationEvent.Invoke();
 
@@ -39,14 +39,14 @@ public class ProximityPrompt : MonoBehaviour
   void OnTriggerEnter2D(Collider2D collision)
   {
 
-    this.canvas.enabled = true;
+    canvas.enabled = true;
 
   }
 
   void OnTriggerExit2D(Collider2D collision)
   {
 
-    this.canvas.enabled = false;
+    canvas.enabled = false;
 
   }
 
