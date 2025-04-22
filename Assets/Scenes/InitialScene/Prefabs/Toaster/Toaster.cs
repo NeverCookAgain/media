@@ -19,16 +19,31 @@ public class Toaster : MonoBehaviour
 
   }
 
-  public void AddItemToToaster()
+  public void ToggleToaster()
   {
 
     // Get the item from the player's inventory.
-    List<Item> items = GameObject.FindGameObjectWithTag("Inventory").GetComponent<Inventory>().items;
-    if (items.Count > 0) {
+    Inventory inventory = GameObject.FindGameObjectWithTag("Inventory").GetComponent<Inventory>();
+    
+    if (this.item != null) {
 
-      Item item = items[^1];
-      items.RemoveAt(0);
-      this.item = item;
+      if (inventory.items.Count + 1 <= inventory.slotCount) {
+
+        inventory.items.Add(this.item);
+        this.item = null;
+
+      }
+
+    } else {
+
+      
+      if (inventory.items.Count > 0) {
+
+        Item item = inventory.items[^1];
+        inventory.items.RemoveAt(0);
+        this.item = item;
+
+      }
 
     }
 
